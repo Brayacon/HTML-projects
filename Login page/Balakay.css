@@ -1,0 +1,154 @@
+/*header*/
+	header{
+			text-align:center; 
+			background:#ef9a9a;
+			color:white;
+			min-height: 70px;
+			padding-top:30px;
+			margin-right: -20px;
+			margin-left: -20px; 
+			margin-top: -20px;
+			margin-bottom: -50px;
+			border-bottom:#ef5350 2px solid;
+			font-family:Arial,helvetica,sanserif;
+			box-shadow: 10px 8px 5px grey;
+
+}
+
+header a{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family:Arial,helvetica,sanserif; 
+
+}
+
+header ul{
+	margin-bottom:-10px;
+	padding: 0;
+
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+body {
+	background-color:cyan;
+	font-family:Arial,helvetica,sanserif;
+	font-size: 13px;
+	font-weight:initial;
+	line-height: 2em;
+}
+header #branding{
+	float: left;
+
+}
+header #branding h1{
+	margin-left:30px;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .highlight{
+	color: cyan;
+	font-weight: bold;
+}
+header a:hover{
+	color:cyan;
+	font-weight: bold;
+}
+.post1{
+	transition-timing-function: ease-in;
+	padding:150px ;
+	margin:-9px;
+	margin-bottom: 20px;
+	margin-right: -20px;
+	margin-top: 2px
+	background-image: url(Images/WEB1.png);
+	background-position: center;
+	background-size: 1250px;		
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 0px;
+
+}
+.post2{
+	transition-timing-function: ease-in;
+	transition-duration: 1;
+	padding:150px ;
+	margin:-9px;
+	margin-bottom: 20px;
+	margin-right: -20px;
+	background-image: url(Images/WEB2.png);
+	background-position: center;
+	background-size: 1250px;		
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 0px;
+
+}
+.post3{
+	padding:150px ;
+	margin:-9px;
+	margin-bottom: 20px;
+	margin-right: -20px;
+	background-image: url(Images/WEB3.png);
+	background-position: center;
+	background-size: 1250px;		
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 0px;
+}
+.post4{
+	padding:150px ;
+	margin:-9px;
+	margin-bottom: 20px;
+	margin-right: -20px;
+	background-image: url(Images/BRAD4.png);
+	background-position: center;
+	background-size: 1250px;		
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 0px;
+}
+.post5{
+	padding:150px ;
+	margin:-9px;
+	margin-bottom: 20px;
+	margin-right: -20px;
+	background-image: url/*(Images/BRAD5.png);*/
+	background-position: center;
+	background-size: 1250px;		
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 0px;
+}
+.post6{
+	padding:150px ;
+	margin:-9px;
+	margin-bottom: 20px;
+	margin-right: -20px;
+	background-image: url(Images/Oreo.png);
+	background-position: center;
+	background-size: 1250px;		
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 0px;
+}
+.post7{
+	padding:150px ;
+	margin:-9px;
+	margin-bottom: 20px;
+	margin-right: -20px;
+	background-image: /*url(Images/contact.jpg);*/
+	background-position: center;
+	background-size: 1250px;		
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-radius: 0px;
+}

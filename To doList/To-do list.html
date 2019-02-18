@@ -1,0 +1,75 @@
+<!--//   Todo list App Index.HTML.
+Bradburry Connel @2016 August 24th-25th.//   -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+	<title>Todo list</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="SlideMenu.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+		<header>
+			<input type="text" placeholder="Enter an activity" id= "item">
+			<button id="add">
+				<svg class= "plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path style="fill" d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 24 13 L 24 24 L 13 24 L 13 26 L 24 26 L 24 37 L 26 37 L 26 26 L 37 26 L 37 24 L 26 24 L 26 13 L 24 13 z" font-weight="200" font-family="sans-serif" white-space="normal" overflow="visible"/>
+				</svg>
+			</button>	
+
+			<div id= "sidebar">
+				<div class= "toggle-btn"  onclick="show()">
+					<div id="sidebarTwo">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+					<ul>
+						<li>Settings</li>
+						<li>Theme</li>
+						<li>Home</li>
+						<li>About</li>
+						<li>Contact</li>
+					</ul>
+			</div>
+		</header>
+
+	<div class="container">
+			<!--incomplete task-->
+		<ul class="todo" id="todo">
+			<!--<li>
+			This is an item
+				<div class="buttons">
+					<button class="remove">
+						<svg class = "nofill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" width="64px" height="64px">
+							<g>
+								<path class= "fill" style="fill " d="M 15 4 C 14.476563 4 13.941406 4.183594 13.5625 4.5625 C 13.183594 4.941406 13 5.476563 13 6 L 13 7 L 7 7 L 7 9 L 8 9 L 8 25 C 8 26.644531 9.355469 28 11 28 L 23 28 C 24.644531 28 26 26.644531 26 25 L 26 9 L 27 9 L 27 7 L 21 7 L 21 6 C 21 5.476563 20.816406 4.941406 20.4375 4.5625 C 20.058594 4.183594 19.523438 4 19 4 Z M 15 6 L 19 6 L 19 7 L 15 7 Z M 10 9 L 24 9 L 24 25 C 24 25.554688 23.554688 26 23 26 L 11 26 C 10.445313 26 10 25.554688 10 25 Z M 12 12 L 12 23 L 14 23 L 14 12 Z M 16 12 L 16 23 L 18 23 L 18 12 Z M 20 12 L 20 23 L 22 23 L 22 12 Z "/>
+							</g>
+						</svg>
+
+					</button>
+					<button class="complete">
+						<svg class= "nofill"  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<circle class= "fill" cx="25" cy="25" r="25"/>
+<polyline style="fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="38,15 22,33 12,25 "/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+					</button>
+				
+				</div> 
+			</li>-->
+		</ul> 
+			<!--complete task-->
+ 		<ul class="todo" id= "completed">
+		
+		</ul>
+	</div>
+
+<script src="main.js"></script>
+<script src="Slidemenu.js"></script>
+</body>
+</html>

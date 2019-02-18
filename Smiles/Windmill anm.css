@@ -1,0 +1,34 @@
+/*THIS CODE IS MADE BY BRADBURRY DONT STEAL*/
+
+
+
+
+.windmill{
+	animation:RotateLeft 3s ease-in-out infinite;
+}
+@keyframes RotateLeft {
+	0%{
+		transform: rotate(0deg);/*Minimum value/start value*/
+	}
+	50%{
+		transform: rotate(180deg);/*Maximum value / End value*/
+	}
+	100%{transform: rotate(360deg);/* back to Minimum to ensure smooth loop*/
+
+	}
+}
+.b_eyes{
+	animation:Moveright 3s ease-in-out infinite;
+}
+@keyframes Moveright {
+	0%{
+		margin-top:-30px;/*Minimum value/start value*/
+	}
+	50%{
+		margin-top:-50px;/*Maximum value / End value*/
+	}
+	100%{
+		margin-top:-30px;/* back to Minimum to ensure smooth loop*/
+
+	}
+}

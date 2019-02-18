@@ -1,0 +1,33 @@
+/*THIS CODE IS MADE BY BRADBURRY DONT STEAL*/
+
+
+
+
+.Mustache:before {
+	animation:shakeLeft 1s ease-in-out infinite;
+}
+.Mustache:after {
+	animation: shakeRight 1s ease-in-out infinite;
+}
+@keyframes shakeLeft {
+	0%{
+		transform: rotate(-30deg);
+	}
+	50%{
+		transform: rotate(-50deg);
+	}
+	100%{transform: rotate(-30deg);
+
+	}
+}
+@keyframes shakeRight {
+	0%{
+		transform: rotate(30deg);/*Minimum value/start value*/
+	}
+	50%{
+		transform: rotate(50deg);/*Maximum value / End value*/
+	}
+	100%{transform: rotate(30deg);/* back to Minimum to ensure smooth loop*/
+
+	}
+}
